@@ -1,9 +1,16 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# What kind of place is this !?
 
-::github{repo="saicaca/fuwari"}
+Hi, my name is Matthias Brat. I'm european, swiss, belgian and french.
+My native language is french, but I do also speak german, dutch and english.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+I wanted a little space for me to share some things with you people.
+This blog will discuss mainly these topics :
+- **Technical computer science articles** (English)
+- **Philosphy & poetry** (French)
+- **Introspection and criticisms** (French)
+- **Random posts like quotes or inner thoughts** (any language)
+- **Music, mainly blues, soul, funk and rock** (any language)
+- **The human specie** (French and English)
+- **Findings** (Any language)
+
+Some pages can be duplicate; translated.

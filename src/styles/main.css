@@ -1,5 +1,9 @@
 @tailwind components;
 
+html {
+    zoom: .8; /* Standard Property */
+}
+
 @layer components {
     .card-base {
         @apply rounded-[var(--radius-large)] overflow-hidden bg-[var(--card-bg)] transition;
