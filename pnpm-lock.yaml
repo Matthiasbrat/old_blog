@@ -153,6 +153,9 @@ importers:
       '@types/sanitize-html':
         specifier: ^2.13.0
         version: 2.13.0
+      markdown-it-abbr:
+        specifier: ^2.0.0
+        version: 2.0.0
       postcss-import:
         specifier: ^16.1.0
         version: 16.1.0(postcss@8.4.49)
@@ -3292,6 +3295,9 @@ packages:
   make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
+
+  markdown-it-abbr@2.0.0:
+    resolution: {integrity: sha512-of7C8pXSjXjDojW4neNP+jD7inUYH/DO0Ca+K/4FUEccg0oHAEX/nfscw0jfz66PJbYWOAT9U8mjO21X5p6aAw==}
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
@@ -8669,6 +8675,8 @@ snapshots:
   make-dir@3.1.0:
     dependencies:
       semver: 6.3.1
+
+  markdown-it-abbr@2.0.0: {}
 
   markdown-it@14.1.0:
     dependencies:

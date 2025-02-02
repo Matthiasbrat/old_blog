@@ -5,7 +5,7 @@ import type { APIContext } from 'astro'
 import MarkdownIt from 'markdown-it'
 import sanitizeHtml from 'sanitize-html'
 
-const parser = new MarkdownIt()
+const parser = new MarkdownIt({breaks: true})
 
 export async function GET(context: APIContext) {
   const blog = await getSortedPosts()

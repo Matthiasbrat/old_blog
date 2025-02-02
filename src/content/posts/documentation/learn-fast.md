@@ -2,7 +2,7 @@
 title: learn-fast
 published: 2025-02-01
 description: 'Share and explore condensed, self-made, or discovered documentation to accelerate your learning journey.'
-image: ''
+image: '/image/books.jpg'
 tags: [learning, github]
 category: documentation
 draft: false 
