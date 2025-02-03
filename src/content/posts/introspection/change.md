@@ -1,7 +1,7 @@
 ---
 title: change
 published: 2025-02-02
-description: 'Emotional blackmailing is making me willing to change. It´s not easy, but is it worth it !?'
+description: 'Emotional blackmail is making me willing to change. It´s not easy, but is it worth it !?'
 image: '/image/footsteps.jpg'
 tags: [life, blackmail]
 category: 'Introspection'
