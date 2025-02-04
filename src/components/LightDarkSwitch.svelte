@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { LIGHT_DARK_MODE } from '@/types/config.ts'
-import { AUTO_MODE, DARK_MODE, LIGHT_MODE } from '@constants/constants.ts'
+import { DARK_MODE, LIGHT_MODE } from '@constants/constants.ts'
 import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 import Icon from '@iconify/svelte'
