@@ -17,10 +17,13 @@ interface Props {
   description?: string
   lang?: string
   setOGTypeArticle?: boolean;
-  headings? : MarkdownHeading[]
+  headings? : MarkdownHeading[];
+  image?: string;
+  tags?: string[]
+  category?: string
 }
 
-const { title, banner, description, lang, setOGTypeArticle, headings = [] } = Astro.props
+const { image, tags, category, title, banner, description, lang, setOGTypeArticle, headings = [] } = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
 const hasBannerLink = !!siteConfig.banner.credit.url
@@ -28,7 +31,7 @@ const hasBannerLink = !!siteConfig.banner.credit.url
 const mainPanelTop = siteConfig.banner.enable ? `calc(${BANNER_HEIGHT}vh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)` : "5.5rem"
 ---
 
-<Layout title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle}>
+<Layout tags={tags} category={category} image={image} title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle}>
 
 <!-- Navbar -->
 <slot slot="head" name="head"></slot>
