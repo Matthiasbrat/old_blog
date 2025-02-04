@@ -8,7 +8,7 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="light"
         data-lang="en"
         crossorigin="anonymous"
         async>
@@ -19,14 +19,31 @@
   </section>
   
   <script is:inline>
-      function updateGiscusTheme() {
-      const theme = localStorage.getItem('theme') || DEFAULT_THEME;
-      const iframe = document.querySelector('iframe.giscus-frame')
-      if (!iframe) return
-      iframe.contentWindow.postMessage({ giscus: { setConfig: { theme } } }, 'https://giscus.app')
+    function updateGiscusTheme() {
+        console.log('Updating Giscus theme');
+        const theme = localStorage.getItem('theme');
+        const iframe = document.querySelector('iframe.giscus-frame');
+        
+        if (!iframe) return;
+        
+        if (iframe.classList.contains('giscus-frame--loading')) {
+            const observer = new MutationObserver(() => {
+                if (!iframe.classList.contains('giscus-frame--loading')) {
+                    updateGiscusTheme();
+                    observer.disconnect();
+                }
+            });
+            observer.observe(iframe, { attributes: true, attributeFilter: ['class'] });
+            return;
+        }
+        
+        iframe.contentWindow.postMessage({ giscus: { setConfig: { theme } } }, 'https://giscus.app');
     }
-  
-    window.onload = () => {
-      updateGiscusTheme()
-    }
-  </script>
+    
+    const observer = new MutationObserver(updateGiscusTheme);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    
+    window.addEventListener('beforeunload', () => {
+        observer.disconnect();
+    });
+    </script>
