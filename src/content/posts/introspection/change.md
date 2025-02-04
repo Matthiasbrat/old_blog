@@ -12,7 +12,7 @@ lang: 'en'
 I'm willing to change. I have stuck to the same state of mind for my whole life now.<br/>
 But emotional blackmail is making me willing to change. Here's why.
 
-## My current state of mind
+# My current state of mind
 > I stick to my true self, don't fake or change my **identity** for others.
 
 # Why ?
