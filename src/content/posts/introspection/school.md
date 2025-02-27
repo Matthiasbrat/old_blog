@@ -32,11 +32,15 @@ The point to make money to make profit to solve problems is that they have to ma
 > The problem they then want to solve with that money can be questionnable.
 > The marketing employed to bombard people with their strategies is questionnable.
 
-:::caution These points are actually shaping your environment like we said earlier. Replacing your natural decisions and opinions with driven paths overflowing you with delighters. :::
+:::important[]
+These points are actually shaping your environment like we said earlier. Replacing your natural decisions and opinions with driven paths overflowing you with delighters.
+:::
 
 ## Lost generations and Loosing Impact Control
 We don't know "what we want to do in life".<br />
-:::caution What kind of nonesense is this ? :::
+:::important[]
+What kind of nonesense is this ?
+:::
 
 > When, or where have you ever felt the need to find something to make sense of your life ?
 > When or where have you ever felt the need to create a big company other than for money ?
