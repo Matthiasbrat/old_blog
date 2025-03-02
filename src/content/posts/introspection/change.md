@@ -5,7 +5,7 @@ description: 'Emotional blackmail is making me willing to change. It´s not easy
 image: '/image/footsteps.jpg'
 tags: [life, blackmail]
 category: 'Introspection'
-draft: false 
+draft: true
 lang: 'en'
 ---
 
