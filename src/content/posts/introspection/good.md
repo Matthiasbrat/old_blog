@@ -9,7 +9,7 @@ draft: false
 lang: 'en'
 ---
 
-Never have I beg for more than sufficience.<br />
+Never have I begged for more than sufficience.<br />
 I've always enjoyed life as it is. The sun, the clouds, the rain. People making friends here and then.<br />
 
 People have a lot to think about nowadays. I'm more of a looking person. I see.....<br />
