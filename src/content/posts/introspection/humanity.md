@@ -1,12 +1,12 @@
 ---
 title: humanité
 published: 2025-03-25
-description: ''
+description: "J'avais oublié ce qu'était l'humanité."
 image: ''
-tags: []
-category: ''
+tags: [humanity]
+category: 'introspection'
 draft: false 
-lang: ''
+lang: 'fr'
 ---
 
 J'avais oublié ce qu'était l'humanité.
