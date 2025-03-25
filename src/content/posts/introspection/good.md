@@ -4,7 +4,7 @@ published: 2025-02-28
 description: 'I never felt so good in my life.'
 image: '/image/cloud.jpg'
 tags: [life]
-category: 'Introspection'
+category: 'introspection'
 draft: false 
 lang: 'en'
 ---

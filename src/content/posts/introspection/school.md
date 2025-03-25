@@ -4,7 +4,7 @@ published: 2025-02-23
 description: 'Stop relying on school to build a career.'
 image: ''
 tags: [school, life, career]
-category: 'Introspection'
+category: 'introspection'
 draft: false 
 lang: 'en'
 ---

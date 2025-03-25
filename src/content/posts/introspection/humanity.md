@@ -4,7 +4,7 @@ published: 2025-03-25
 description: "J'avais oublié ce qu'était l'humanité."
 image: ''
 tags: [humanity]
-category: 'Introspection'
+category: 'introspection'
 draft: false 
 lang: 'fr'
 ---
