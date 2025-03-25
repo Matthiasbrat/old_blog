@@ -35,7 +35,7 @@ I had no idea where to begin so I started to compare different cloud providers.
 - vps + coolify
 
 :::caution[]
-GCP, AWS and AKS were a no go since I wanted to scale rapidly without having to bankrupt and easily manage my cluster alone.
+GCP, AWS and AKS were a no go since I wanted to scale rapidly without having to bankrupt and easily manage my cluster alone. (egress bill, no thank you.)
 
 <img src="/image/awsbill.jpg" width="250" alt="aws bill" />
 :::
