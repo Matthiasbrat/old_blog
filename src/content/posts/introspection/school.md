@@ -5,7 +5,7 @@ description: 'Stop relying on school to build a career.'
 image: ''
 tags: [school, life, career]
 category: 'introspection'
-draft: false 
+draft: true 
 lang: 'en'
 ---
 
